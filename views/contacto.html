@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta chardset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LOPEZ - DISTRIBUIDOR MAYORISTA FERRETERO - CONTACTENOS </title>
+    <link rel="stylesheet" href="../Assets/css/estilos.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap" rel = "hoja de estilo">
+    <link rel="stylesheet" href="../Assets/css/bootstrap.min.css"> 
+   </head>
+   
+   <body class="fondoColor">
+        <br> <br>
+        <!--Formulario de Contacto-->
+        <form action="action">
+            <fieldset>
+                <!--Contenedor para el titulo del formulario-->
+                <div class="container-fluid Color-Container-2">
+                    <div class="container text-white">
+                        <legend class="tpBold"> <b>FORMULARIO DE CONTACTO</b></legend>
+                        <p class="text-white">Dejanos tus datos, y nos contactaremos a la brevedad. Tu consulta no molesta!!!</p>
+                    </div>
+                </div>
+                <!--Contenedor para los datos solicitados en el formulario-->
+                <div class="container-fluid  Color-Container-1">
+                    <div class="container TextoNegro">
+                        <label for="fname">Nombre: </label>
+                        <br>
+                        <input type="text" id="fname" name="fname">
+                        <br> <br>
+                        <label for="lname">Apellido: </label>
+                        <br>
+                        <input type="text" id="lname" name="lname">
+                        <br> <br>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com">
+                        <br> <br>
+                        <label for="Situacion"> Elija su situacion:</label>
+                        <select name="situacion" id="situacion">
+                            <option value="consumidorfinal">CONSUMIDOR FINAL</option>
+                            <option value="ferretero">Ferretero</option>
+                            <option value="revendedor">Revendedor</option>
+                        </select>
+                        <br> <br>
+                        <label for="check">Deseas recibir nuestro newsletter?</label> 
+                             <input type="checkbox" id="a" value="a">
+                        <br> <br>
+                        <textarea name="mensaje" id="mensaje" cols="80" rows="20"placeholder="Ingrese su consulta"></textarea>
+                        <br> <br>
+                        <input type="submit" value="Enviar">
+                        <br>
+                        <input type="reset" value="Limpiar formulario">
+                        <br>      
+                    </div>    
+                </div>
+            </fieldset>
+        </form>
+        <footer></footer>
+        <br>
+        <!--Boton Volver-->
+        <a class="btn btn-primary" href="../index.html" role="button">Volver</a>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="../Assets/js/bootstrap.min.js"></script>
+</html>

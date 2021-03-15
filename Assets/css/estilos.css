@@ -119,17 +119,6 @@
 .AltoCol {
   height: 20px; }
 
-.hijo {
-  background: whitesmoke;
-  border: solid 1px black;
-  width: 300px;
-  height: 40px;
-  font-size: 15pt;
-  font-family: impact;
-  color: whitesmoke;
-  text-align: center;
-  justify-content: space-around; }
-
 .Derecha {
   text-align: right;
   justify-content: right; }
@@ -138,12 +127,6 @@
   margin-left: auto;
   margin-right: auto;
   display: block; }
-
-/*flex padre*/
-.padreflex {
-  display: flex;
-  flex-flow: row nowrap;
-  color: aliceblue; }
 
 li {
   color: green; }

@@ -155,18 +155,6 @@ $ColorF2:rgb(206, 8, 8);
     height: 20px;
 }
 
-.hijo{
-    background: whitesmoke;
-    border: solid 1px black;
-    width: 300px;
-    height: 40px;
-    font-size: 15pt;
-    font-family: impact;
-    color: whitesmoke;
-    text-align: center;
-    justify-content: space-around;
-}
-
 .Derecha{
     text-align:right;
     justify-content:right;
@@ -179,12 +167,6 @@ $ColorF2:rgb(206, 8, 8);
 
 }
 
-/*flex padre*/
-.padreflex{
-    display: flex;
-    flex-flow: row nowrap;
-    color: aliceblue;
-}
 
 li{
     color:green ;
@@ -207,49 +189,8 @@ div div input{
     color: rgb(18, 24, 77);
 }
 
-.bordesRedondeados{
-    padding: 30px 35px 20px 35px;
-    margin: 30px 35px 20px 55px;
-    background-color:rgb(185, 231, 216);
-    width: 900px;
-    height: 500px;
-    border: 15px;
-    border-color: rgb(26, 71, 26);
-    border-radius: 25px;
-    &__container{
-        display: grid;
-        color:crimson;
-        font-size: large;
-        background-color: cadetblue;
-        text-align: center;
-    }
-    &__container1{
-        padding: 130px 70px 20px 35px;
-        margin: 30px 35px 20px 55px;
-        display: grid;
-        font-size: large;
-        background-color: cadetblue;
-        text-align: center;
-        &--tp{
-            font-family: 'Roboto', sans-serif;
-            font-weight: 100;
-            color:darkgreen;
-        }
-        &--tp1{
-            font-family:'Times New Roman', Times, serif;
-            font-weight: 200;
-            font-size:large;
-            color: rgb(62, 78, 168);
-        }
-        &--tp2{
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-weight: 400;
-            text-align: center;
-            font-size: larger;
-            color: rgb(21, 110, 88);
-        }
-    }    
-}
+@import "bordes";
+
         
 
 .imagen{
